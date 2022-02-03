@@ -21,6 +21,12 @@ export default function AuthProvider({children}) {
     function authenticateUser(email ,password){
       return Auth.signInWithEmailAndPassword(email,password);
     }
+    function invisibleRecaptcha(){
+      
+    }
+    function sendOTP(mob){
+      return
+    }
     function logout(){
       return Auth.signOut();
     }
